@@ -9,6 +9,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
+    <commons-net.version>3.6</commons-net.version>
   </properties>
 
   <parent>
@@ -53,6 +54,13 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-log4j2</artifactId>
+    </dependency>
+
+    <!-- Apache commons -->
+    <dependency>
+      <groupId>commons-net</groupId>
+      <artifactId>commons-net</artifactId>
+      <version>${commons-net.version}</version>
     </dependency>
 
   </dependencies>

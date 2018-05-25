@@ -12,7 +12,7 @@ public class SpringBootUtilAutoConfig {
   private static final Logger logger = LoggerFactory.getLogger(SpringBootUtilAutoConfig.class);
 
   public SpringBootUtilAutoConfig() {
-    logger.debug("SpringBootUtilAutoConfig() :: Initialized.");
+    logger.info("SpringBootUtilAutoConfig() :: Initialized.");
   }
 
 }
