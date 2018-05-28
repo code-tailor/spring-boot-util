@@ -49,7 +49,8 @@ public class IpSecurityFilter implements Filter {
         SubnetUtils subnet = new SubnetUtils(network);
         subnetUtils.add(subnet);
       } catch (Exception ex) {
-        logger.warn("initialization():: fail to add allowed network:{} as it's invalid.", network, ex);
+        logger.warn("initialization():: fail to add allowed network:{} as it's invalid.", network,
+            ex);
       }
     }
   }
